@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const ButtonAppBar = () => {
+const NavBar = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -17,12 +17,12 @@ const ButtonAppBar = () => {
             edge="start"
             color="inherit"
             aria-label="menu"
-            sx={{ mr: 2 }}
+            sx={{ mr: 15 }}
           >
-            <MenuIcon />
+          <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Kevin C Stone
+          <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
+            Welcome
           </Typography>
           <Button color="inherit">Home</Button>
           <Button color="inherit">Resume</Button>
@@ -33,4 +33,4 @@ const ButtonAppBar = () => {
   );
 }
 
-export default ButtonAppBar;
+export default NavBar;

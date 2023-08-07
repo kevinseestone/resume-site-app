@@ -1,6 +1,6 @@
 import './App.css';
-import ButtonAppBar from './ButtonAppBar';
-import MainCard from './MainCard';
+import NavBar from './components/NavBar';
+import MainCard from './components/MainCard';
 
 
 
@@ -8,10 +8,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <ButtonAppBar />
+      <NavBar />
       <MainCard />
     </div>
-
   );
 }
 
